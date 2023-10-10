@@ -1,9 +1,13 @@
 import React from 'react';
 import { Box, SvgIcon, Typography } from '@mui/material';
 import { ReactComponent as RealEstateIcon } from '../assets/real-estate.svg';
-import { ReactComponent as PodcastIcon } from '../assets/podcast.svg';
-import { ReactComponent as BookIcon } from '../assets/book.svg';
-import { ReactComponent as LoveIcon } from '../assets/love.svg';
+import { ReactComponent as RealEstateAvatarIcon } from '../assets/sign.svg';
+import { ReactComponent as PodcastAvatarIcon } from '../assets/podcast.svg';
+import { ReactComponent as PodcastIcon } from '../assets/podcast1.svg';
+import { ReactComponent as BookAvatarIcon } from '../assets/book.svg';
+import { ReactComponent as BookIcon } from '../assets/reading-book.svg';
+import { ReactComponent as LoveAvatarIcon } from '../assets/love.svg';
+import { ReactComponent as LoveIcon } from '../assets/brotherhood.svg';
 import Woman from '../assets/woman.jpg';
 import Background from '../assets/pexels-adrien-olichon-2387793.jpg';
 import '../../src/index.css';
@@ -46,33 +50,33 @@ const headerHome = () => {
               }}
             ></Box>
             <SvgIcon
-              component={RealEstateIcon}
-              viewBox='0 0 512 512'
-              sx={{
-                position: 'absolute',
-                height: '50px',
-                width: '50px',
-                top: '15%',
-                left: '30%',
-                transform: 'rotate(350deg)',
-                color: '#FBFBFB',
-              }}
-            />
-            <SvgIcon
-              component={PodcastIcon}
+              component={RealEstateAvatarIcon}
               inheritViewBox
               sx={{
                 position: 'absolute',
                 height: '50px',
                 width: '50px',
                 top: '12%',
+                left: '33%',
+                transform: 'rotate(350deg)',
+                color: 'white',
+              }}
+            />
+            <SvgIcon
+              component={PodcastAvatarIcon}
+              inheritViewBox
+              sx={{
+                position: 'absolute',
+                height: '60px',
+                width: '60px',
+                top: '14%',
                 left: '63%',
                 transform: 'rotate(10deg)',
                 color: '#FBFBFB',
               }}
             />
             <SvgIcon
-              component={BookIcon}
+              component={BookAvatarIcon}
               inheritViewBox
               sx={{
                 position: 'absolute',
@@ -85,22 +89,22 @@ const headerHome = () => {
               }}
             />
             <SvgIcon
-              component={LoveIcon}
+              component={LoveAvatarIcon}
               inheritViewBox
               sx={{
                 position: 'absolute',
-                height: '70px',
-                width: '70px',
+                height: '80px',
+                width: '80px',
                 top: '32%',
-                left: '62%',
-                transform: 'rotate(30deg)',
+                left: '60%',
+                transform: 'rotate(20deg)',
                 color: '#FBFBFB',
               }}
             />
-            <Typography sx={{ lineHeight: '1.1em', color: '#FBFBFB', fontFamily: 'Yeo', padding: '0px', fontSize: '98px' }}>
+            <Typography sx={{ paddingTop: '25px', lineHeight: '.8em', color: '#FBFBFB', fontFamily: 'Yeo', fontSize: '98px' }}>
               Patricia Scimone
             </Typography>
-            <Typography variant='h2' sx={{width: '100%', textAlign: 'center',color: '#FBFBFB', fontFamily: 'Yeo', padding: '0px', fontSize: '58px', borderBottom: '1px solid white'}}>of Tampa Bay!</Typography>
+            <Typography variant='h2' sx={{width: '96%', textAlign: 'center',color: '#FBFBFB', fontFamily: 'Yeo', padding: '0px', fontSize: '58px', borderBottom: '1px solid white'}}>of Tampa Bay!</Typography>
             <Box
               sx={{
                 display: 'flex',
@@ -109,7 +113,8 @@ const headerHome = () => {
                 justifyContent: 'start',
                 width: '100%',
                 height: '16em',
-                paddingTop: '15px',
+                paddingTop: '25px',
+                gap: '25px',
               }}
             >
               <Box
@@ -124,6 +129,7 @@ const headerHome = () => {
                 }}
               >
                 <Box
+                component="button"
                   sx={{
                     width: '45%',
                     height: '7rem',
@@ -134,6 +140,7 @@ const headerHome = () => {
                     flexDirection: 'row',
                     alignItems: 'center',
                     justifyContent: 'start',
+                    cursor: 'pointer',
                   }}
                 >
                   <SvgIcon
@@ -161,6 +168,7 @@ const headerHome = () => {
                   </Box>
                 </Box>
                 <Box
+                component="button"
                   sx={{
                     width: '45%',
                     height: '7rem',
@@ -171,6 +179,7 @@ const headerHome = () => {
                     flexDirection: 'row',
                     alignItems: 'center',
                     justifyContent: 'start',
+                    cursor: 'pointer',
                   }}
                 >
                   <SvgIcon
@@ -210,6 +219,7 @@ const headerHome = () => {
                 }}
               >
                 <Box
+                component="button"
                   sx={{
                     width: '45%',
                     height: '7rem',
@@ -220,6 +230,7 @@ const headerHome = () => {
                     flexDirection: 'row',
                     alignItems: 'center',
                     justifyContent: 'start',
+                    cursor: 'pointer',
                   }}
                 >
                   <SvgIcon
@@ -247,6 +258,7 @@ const headerHome = () => {
                   </Box>
                 </Box>
                 <Box
+                component="button"
                   sx={{
                     width: '45%',
                     height: '7rem',
@@ -257,6 +269,7 @@ const headerHome = () => {
                     flexDirection: 'row',
                     alignItems: 'center',
                     justifyContent: 'start',
+                    cursor: 'pointer',
                   }}
                 >
                   <SvgIcon

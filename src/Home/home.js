@@ -1,10 +1,5 @@
 import React from 'react';
-import { Box, SvgIcon, Typography } from '@mui/material';
-import { ReactComponent as RealEstateIcon } from '../assets/real-estate.svg';
-import { ReactComponent as PodcastIcon } from '../assets/podcast.svg';
-import { ReactComponent as BookIcon } from '../assets/book.svg';
-import { ReactComponent as LoveIcon } from '../assets/love.svg';
-import Woman from '../assets/woman.jpg';
+import { Box } from '@mui/material';
 import HeaderHome from '../Home/headerHome.js';
 
 const home = () => {
