@@ -25,6 +25,7 @@ const headerHome = () => {
             backgroundSize: 'cover',
             backgroundRepeat: 'none',
             backgroundPosition: 'center',
+            borderBottom: '3px solid black',
           }}
         >
           <Box
@@ -141,6 +142,7 @@ const headerHome = () => {
                     alignItems: 'center',
                     justifyContent: 'start',
                     cursor: 'pointer',
+                    
                   }}
                 >
                   <SvgIcon
