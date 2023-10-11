@@ -16,3 +16,8 @@ code {
   font-family: 'Yeo';
   src: local('Yeo'), url(../src/fonts/yeo.otf) format('opentype');
 }
+
+@font-face {
+  font-family: 'Hi';
+  src: local('Hi'), url(../src/fonts/hi.otf) format('opentype');
+}
