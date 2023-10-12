@@ -172,7 +172,7 @@ const headerHome = () => {
                   height: '100%',
                   width: '20%',
                   marginLeft: '5%',
-                  color: 'white',
+                  color: 'gold',
                 }}
               />
               <Box
@@ -221,7 +221,7 @@ const headerHome = () => {
                   height: '100%',
                   width: '20%',
                   marginLeft: '5%',
-                  color: 'white',
+                  color: 'gold',
                 }}
               />
               <Box
@@ -282,7 +282,7 @@ const headerHome = () => {
                   height: '100%',
                   width: '20%',
                   marginLeft: '5%',
-                  color: 'white',
+                  color: 'gold',
                 }}
               />
               <Box
@@ -341,7 +341,7 @@ const headerHome = () => {
                   width: '20%',
 
                   marginLeft: '5%',
-                  color: 'white',
+                  color: 'gold',
                 }}
               />
               <Box
