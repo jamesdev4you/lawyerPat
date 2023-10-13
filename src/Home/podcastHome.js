@@ -3,7 +3,7 @@ import { Box, Typography } from '@mui/material';
 import Book from '../assets/book.jpg';
 import { MyBookButton, MyBookPageButton } from '../styledComponents.js';
 
-const bookHome = () => {
+const podcastHome = () => {
   return (
     <Box
       sx={{
@@ -13,20 +13,20 @@ const bookHome = () => {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#FFFFFF',
+        backgroundColor: 'black',
       }}
     >
       <Typography
         variant='h1'
         sx={{
-          color: 'black',
+          color: 'white',
           margin: '1em',
           fontFamily: 'Hi',
           width: '100%',
           textAlign: 'center',
         }}
       >
-        Divorced? Your Life Starts Now!
+        Soothe Your Day With This Podcast!
       </Typography>
       <Box
         sx={{
@@ -40,29 +40,15 @@ const bookHome = () => {
       >
         <Box
           sx={{
-            width: '20%',
-            height: '30em',
-            background: `url(${Book})`,
-            backgroundSize: 'cover',
-            backgroundRepeat: 'none',
-            backgroundPosition: 'bottom',
-            border: '3px solid black',
-            borderRadius: '15px',
-            boxShadow:
-              'rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px',
-          }}
-        />
-        <Box
-          sx={{
             width: '40%',
             height: '30em',
-            border: '3px solid black',
+            border: '3px solid white',
             borderRadius: '15px',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'start',
-            backgroundColor: 'white',
+            backgroundColor: 'black',
             boxShadow:
               'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px',
           }}
@@ -75,10 +61,11 @@ const bookHome = () => {
               textAlign: 'center',
               paddingTop: '15px',
               paddingBottom: '5px',
-              borderBottom: '3px solid black',
+              borderBottom: '3px solid white',
+              color: 'white',
             }}
           >
-            The Way To Live After Divorce
+            Best Podcast To Upgrade Your Life
           </Typography>
           <Typography
             variant='p'
@@ -87,6 +74,7 @@ const bookHome = () => {
               width: '90%',
               textAlign: 'left',
               paddingTop: '15px',
+              color: 'white',
             }}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -108,6 +96,7 @@ const bookHome = () => {
               textAlign: 'left',
               paddingTop: '15px',
               paddingBottom: '15px',
+              color: 'white',
             }}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
@@ -121,6 +110,7 @@ const bookHome = () => {
             suscipit placerat sollicitudin. Donec in maximus nisl. Aliquam erat
             volutpat. Ut sit amet facilisis velit.
           </Typography>
+          
           <Box
             sx={{
               width: '90%',
@@ -132,9 +122,23 @@ const bookHome = () => {
             <MyBookButton /> <MyBookPageButton />
           </Box>
         </Box>
+        <Box
+          sx={{
+            width: '20%',
+            height: '30em',
+            background: `url(${Book})`,
+            backgroundSize: 'cover',
+            backgroundRepeat: 'none',
+            backgroundPosition: 'bottom',
+            border: '3px solid white',
+            borderRadius: '15px',
+            boxShadow:
+              'rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px',
+          }}
+        />
       </Box>
     </Box>
   );
 };
 
-export default bookHome;
+export default podcastHome;
